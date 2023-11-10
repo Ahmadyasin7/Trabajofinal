@@ -1,0 +1,103 @@
+/***************************************************/
+/*      estilo del trabajo final                   */
+/*      autor: Ahmad Yasin Khairouni               */
+/*      fecha: 09-11-2023                          */
+/*      version : 1.0                              */
+/***************************************************/
+
+@font-face {
+    font-family: texto;
+    src: url(../font/nordick/nordick.ttf);
+}
+
+@font-face {
+    font-family: titulos;
+    src: url(../font/norse/Norse-Bold.otf);
+}
+
+/*************** estilo general ***************/
+
+body {background-color: black;
+    background-image: url(../image/viking11.png);
+    background-size:45% ;
+    color: white;
+    font-size: 2.5em;
+    }
+
+#wrapper {width: 80%;
+            margin: auto;
+            background-color: black;}
+
+nav {text-align: center;
+    font-family: texto;
+    padding-bottom: 15px;}
+
+
+p {text-align: center;
+    font-family: texto;
+    font-size: 0.5em;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    text-align: justify;
+    padding-right: 30px;}
+
+footer {text-align: center;
+    padding-top: 15px;
+    font-family: texto;
+    }
+
+/*************** barra de navegacion **********/
+
+
+
+/*************** hero sección *****************/
+
+#hero {background-image: url(../image/ragnar\ .jpg);
+        height: 95vh; 
+        background-size: cover; 
+        background-position: 45%;
+        font-family: titulos;
+        color: white;
+        font-size: 1.5em;
+        padding-left: 20px;}
+
+
+
+/*************** intro *****************/
+
+.titulo {font-family: titulos;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    }
+
+#intro p::first-letter {font-size: 1.5em;
+                        color: rgb(100, 69, 11);}
+
+#introgallery {width: 30%;
+    float: left;
+    margin: 0 20px 10px 10px;
+    padding-left: 20px;
+}
+
+
+
+/*************** GALLERY *****************/
+
+#gallery {background-image: url(../image/RAGNAR\ GALERY.jpg);
+    clear:both;
+    height: 95vh; 
+    background-size: cover; 
+    background-position: 45%;
+    font-family: titulos;
+    color: white;
+    font-size: 1.5em;
+    padding-left: 20px;}
+
+
+
+/*****************************************/
+
+@media only screen and (width<650px) {
+    #wrapper {width: 95%;}
+}
